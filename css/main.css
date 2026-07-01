@@ -19,10 +19,10 @@
     --anchor: #C2185B;
 
     /* Nav and Side Bars */
-    --intro-avatar-bg: url(images/main-portrait.png);
+    --intro-avatar-bg: url("images/main-portrait.png");
     --nav-bg: url("images/pink-nav.png");
-    --side-left-bg: url("images/sidebar-left.png");
-    --side-right-bg: url("images/sidebar-right.png");
+    --side-left-bg: white;
+    --side-right-bg: white;
 }
 
 body {
@@ -129,7 +129,7 @@ h3 {
     border-radius: 50px;
 
     /* Glass-like background */
-    background-image: var(--side-left-bg);
+    background-color: var(--side-left-bg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -153,7 +153,7 @@ h3 {
     border-radius: 50px;
 
     /* Glass-like background */
-    background-image: var(--side-right-bg);
+    background-color: var(--side-right-bg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
