@@ -56,7 +56,7 @@ function eveningMode() {
     document.documentElement.style.setProperty('--shadow-primary', '#c2185b26');
     document.documentElement.style.setProperty('--shadow-cards', '#f0bf84');
     document.documentElement.style.setProperty('--anchor', '#C2185B');
-    document.documentElement.style.setProperty('--intro-avatar-bg', 'url(images/main-portrait.png)');
+    document.documentElement.style.setProperty('--intro-avatar-bg', 'url(images/main-portrait-evening.png)');
     document.documentElement.style.setProperty('--nav-bg', 'url("images/pink-nav.png")');
     document.documentElement.style.setProperty('--side-left-bg', '#f1b7ce');
     document.documentElement.style.setProperty('--side-right-bg', '#f8b8d1');
