@@ -37,8 +37,8 @@ function dayMode() {
     document.documentElement.style.setProperty('--anchor', '#1D4ED8');
     document.documentElement.style.setProperty('--intro-avatar-bg', 'url(images/main-portrait-day.png)');
     document.documentElement.style.setProperty('--nav-bg', 'url("images/day-nav.png")');
-    document.documentElement.style.setProperty('--side-left-bg', 'url("images/sidebar-left-day.png")');
-    document.documentElement.style.setProperty('--side-right-bg', 'url("images/sidebar-right-day.png")');
+    document.documentElement.style.setProperty('--side-left-bg', '#7e9bea');
+    document.documentElement.style.setProperty('--side-right-bg', '#93adf6');
 }
 
 function eveningMode() {
@@ -58,8 +58,8 @@ function eveningMode() {
     document.documentElement.style.setProperty('--anchor', '#C2185B');
     document.documentElement.style.setProperty('--intro-avatar-bg', 'url(images/main-portrait.png)');
     document.documentElement.style.setProperty('--nav-bg', 'url("images/pink-nav.png")');
-    document.documentElement.style.setProperty('--side-left-bg', 'url("images/sidebar-left.png")');
-    document.documentElement.style.setProperty('--side-right-bg', 'url("images/sidebar-right.png")');
+    document.documentElement.style.setProperty('--side-left-bg', '#f1b7ce');
+    document.documentElement.style.setProperty('--side-right-bg', '#f8b8d1');
 }
 
 function nightMode() {
